@@ -14,7 +14,18 @@
        
     </header>
     <section>
-       
+        <h2>Calculadora de Peso Ideal</h2>
+        <p>Para conocer cuál es tu peso ideal, deberás medir tu altura en metros y tu peso en kilos.</p>
+        
+        <label for="altura">Altura (m): </label>
+        <input type="number" id="altura" step="0.01" min="0" placeholder="Ejemplo: 1.75" />
+        <br/><br/>
+        <label for="peso">Peso (kg): </label>
+        <input type="number" id="peso" step="0.1" min="0" placeholder="Ejemplo: 70" />
+        <br/><br/>
+        <button onclick="calcularPesoIdeal()">Calcular</button>
+        
+        <div id="resultado" style="margin-top:20px; font-weight:bold;"></div>
 
     </section>
     <footer>
