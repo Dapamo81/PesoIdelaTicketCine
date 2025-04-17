@@ -3,4 +3,67 @@
     padding: 0px;
 }
 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+
+  /* Estilo del formulario */
+  .form-container {
+    margin-bottom: 30px;
+  }
+
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+
+  input {
+    padding: 5px;
+    width: 200px;
+  }
+
+  button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+
+  /* Estilo del ticket */
+  .ticket {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    background-size: cover;
+    border: 2px solid #333;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: 'Courier New', monospace;
+    color: #000;
+  }
+
+  /* Posiciones para los datos en el ticket */
+  .nombre {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+  }
+
+  .fecha {
+    position: absolute;
+    top: 60px;
+    left: 20px;
+  }
+  .fila {
+    position: absolute;
+    top: 90px;
+    left: 20px;
+  }
+
+  .butaca {
+    position: absolute;
+    top: 120px;
+    left: 20px;
+  }
 
