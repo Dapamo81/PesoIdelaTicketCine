@@ -28,6 +28,34 @@
         <div id="resultado" style="margin-top:20px; font-weight:bold;"></div>
 
     </section>
+
+    <section>
+        <h2>Rellena tu ticket de cine</h2>
+
+        <div class="form-container">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" />
+
+        <label for="fecha">Fecha:</label>
+        <input type="date" id="fecha" />
+
+        <label for="fila">Fila:</label>
+        <input type="text" id="fila" />
+
+        <label for="asiento">Asiento:</label>
+        <input type="text" id="asiento" />
+
+        <button onclick="mostrarTicket()">Enviar</button>
+        </div>
+
+        <h3>Ticket de Entrada</h3>
+        <div class="ticket" id="ticket">
+        <div class="nombre" id="mostrarNombre">Nombre: ---</div>
+        <div class="fecha" id="mostrarFecha">Fecha: ---</div>
+        <div class="fila" id="mostrarfila">Fila: ---</div>
+        <div class="butaca" id="mostrarButaca">Butaca: ---</div>
+        </div>
+    </section>
     <footer>
      
     </footer>

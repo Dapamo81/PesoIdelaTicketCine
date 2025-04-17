@@ -29,3 +29,18 @@ function calcularPesoIdeal() {
         resultadoDiv.innerHTML += "<br/>Tienes obesidad.";
     }
 }
+
+function mostrarTicket() {
+    // Obtener los valores de los inputs
+    const nombre = document.getElementById("nombre").value;
+    const fecha = document.getElementById("fecha").value;
+    const fila = document.getElementById("fila").value;
+    const asiento = document.getElementById("asiento").value;
+
+    document.getElementById("mostrarNombre").textContent = "Nombre: " + (nombre);
+    document.getElementById("mostrarFecha").textContent = "Fecha: " + (fecha);
+    document.getElementById("mostrarfila").textContent = "Fila: " + (fila);
+    document.getElementById("mostrarButaca").textContent = "Asiento: " + (asiento);
+
+
+}
